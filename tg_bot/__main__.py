@@ -145,10 +145,6 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton(text="Source Code",
-                                             url="github.com/el0xren/tgbot")
-                    ],
-                     [
                          InlineKeyboardButton(text="Support Group",
                                               url=f"t.me/{SUPPORT_CHAT}")
                      ],
@@ -160,7 +156,7 @@ def start(update: Update, context: CallbackContext):
                                  context.bot.username))
                      ]]))
     else:
-        update.effective_message.reply_text("Yo, whadup?")
+        update.effective_message.reply_text("Ewww, pepls?")
 
 
 # for test purposes
