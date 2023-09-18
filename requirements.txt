@@ -1,8 +1,8 @@
 future
-emoji
+emoji==1.7.0
 requests
-sqlalchemy
-python-telegram-bot==13.10
+sqlalchemy==1.4.11
+python-telegram-bot==13.15
 psycopg2-binary
 feedparser
 cachetools==4.2.2
